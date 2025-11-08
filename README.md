@@ -1,14 +1,14 @@
 # Viz16S-Ampli
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Build Status](https://img.shields.io/github/actions/workflow/status/phurinat-udo/viz16s_ampli/ci.yml?branch=main)
 ![Issues](https://img.shields.io/github/issues/phurinat-udo/viz16s_ampli.svg)
 ![Stars](https://img.shields.io/github/stars/phurinat-udo/viz16s_ampli.svg)
 ![Forks](https://img.shields.io/github/forks/phurinat-udo/viz16s_ampli.svg)
 ![Contributors](https://img.shields.io/github/contributors/phurinat-udo/viz16s_ampli.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/phurinat-udo/viz16s_ampli.svg)
-![Version](https://img.shields.io/github/v/release/phurinat-udo/viz16s_ampli.svg)
-![Coverage](https://img.shields.io/codecov/c/github/phurinat-udo/viz16s_ampli.svg)
+<!-- ![Build Status](https://img.shields.io/github/actions/workflow/status/phurinat-udo/viz16s_ampli/ci.yml?branch=main) -->
+<!-- ![Version](https://img.shields.io/github/v/release/phurinat-udo/viz16s_ampli.svg) -->
+<!-- ![Coverage](https://img.shields.io/codecov/c/github/phurinat-udo/viz16s_ampli.svg) -->
 
 > A software for visualize the result from 16S rDNA amplicon sequencing analysis.
 
