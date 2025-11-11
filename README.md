@@ -31,6 +31,9 @@
 			- [5. (Optional) Adjust plot position and size](#5-optional-adjust-plot-position-and-size)
 			- [6. Press save button under the plot to save the figure](#6-press-save-button-under-the-plot-to-save-the-figure)
 		- [LEfSe Input Preparation](#lefse-input-preparation)
+			- [1. Select `LEfSe Input Preparing` tab](#1-select-lefse-input-preparing-tab)
+			- [2. Provide inputs:](#2-provide-inputs-1)
+			- [3. Press `Prepare LEfSe` button](#3-press-prepare-lefse-button)
 	- [License](#license)
 	- [Contact](#contact)
 
@@ -84,8 +87,8 @@ The instruction for installation and application usage can be found below.
 #### 2. Provide inputs:
 
 - Select input file by pressing `Choose input file (*.qzv)` button
-  - An output from QIIME2 taxa barplot  formatted as `*.qzv`
-- Select output folder (Must be empty folder) by pressing `Choose output folder` button. 
+  - An output from **QIIME2 taxa** ***barplot*** formatted as `*.qzv`
+- Select output folder (Must be empty folder) by pressing `Choose output folder` button.
   - The input `*.qzv` will be extracted and shown in dropdown menu right after selection.
 - Select taxonomic level to be visualized from dropdown menu `Select taxonomic level`
 - Choose category to be visualized from dropdown menu `Select category to be visualized`
@@ -103,7 +106,24 @@ The instruction for installation and application usage can be found below.
 
 ![AbdPage](figure/taxaAbd_page.png)
 
+---
+
 ### LEfSe Input Preparation
+
+#### 1. Select `LEfSe Input Preparing` tab
+#### 2. Provide inputs:
+
+- Select feature table file by pressing `Choose feature table file (*.qza)` button
+  - An output from **QIIME2 dada2** ***denoise*** formatted as `*.qza`
+- Select classification file by pressing `Choose classification file (*.qza)` button
+  - An output from **QIIME2 feature-classifier** ***classify-sklearn*** formatted as `*.qza`
+- Select metadata file of the sequences by pressing `Choose metadata file (*.tsv)`
+- Select output folder (Must be empty folder) by pressing `Choose output folder` button.
+  - The classification with feature name and metadata will be constructed in single file in `*.tsv` format to be used as an input for Cladogram visualization
+- Specify column from metadata file to be used as `class`, `subclass`, and `subject` in dropdown menu
+- (optional) Specify an outputfile name
+
+#### 3. Press `Prepare LEfSe` button
 
 ![LEfSePage](figure/LefsePreparing_light.png)
 
