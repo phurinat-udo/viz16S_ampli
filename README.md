@@ -25,14 +25,14 @@
 	- [Usage](#usage)
 		- [Taxonomic Structure Visualization](#taxonomic-structure-visualization)
 			- [1. Open application `Viz16S-Ampli`](#1-open-application-viz16s-ampli)
-			- [2. Provide inputs:](#2-provide-inputs)
+			- [2. Provide inputs for Taxonomic Structure Visualization:](#2-provide-inputs-for-taxonomic-structure-visualization)
 			- [3. Press `Calculate` button](#3-press-calculate-button)
 			- [4. Press `Plot` button](#4-press-plot-button)
 			- [5. (Optional) Adjust plot position and size](#5-optional-adjust-plot-position-and-size)
 			- [6. Press save button under the plot to save the figure](#6-press-save-button-under-the-plot-to-save-the-figure)
 		- [LEfSe Input Preparation](#lefse-input-preparation)
 			- [1. Select `LEfSe Input Preparing` tab](#1-select-lefse-input-preparing-tab)
-			- [2. Provide inputs:](#2-provide-inputs-1)
+			- [2. Provide inputs for LEfSe Preparation:](#2-provide-inputs-for-lefse-preparation)
 			- [3. Press `Prepare LEfSe` button](#3-press-prepare-lefse-button)
 	- [License](#license)
 	- [Contact](#contact)
@@ -84,7 +84,7 @@ The instruction for installation and application usage can be found below.
 
 ![AbdPage](figure/taxaAbdPage.png)
 
-#### 2. Provide inputs:
+#### 2. Provide inputs for Taxonomic Structure Visualization:
 
 - Select input file by pressing `Choose input file (*.qzv)` button
   - An output from **QIIME2 taxa** ***barplot*** formatted as `*.qzv`
@@ -93,7 +93,7 @@ The instruction for installation and application usage can be found below.
 - Select taxonomic level to be visualized from dropdown menu `Select taxonomic level`
 - Choose category to be visualized from dropdown menu `Select category to be visualized`
 - (optional) Check `Rename group of sample` to edit the x-axis label
- - Specify the name for each category to be labeled on x-axis (the label for each category separate by comma (`,`) only)
+  - Specify the name for each category to be labeled on x-axis (the label for each category separate by comma (`,`) only)
 - (optional) Specify title for the visualization plot
 
 #### 3. Press `Calculate` button
@@ -111,7 +111,8 @@ The instruction for installation and application usage can be found below.
 ### LEfSe Input Preparation
 
 #### 1. Select `LEfSe Input Preparing` tab
-#### 2. Provide inputs:
+
+#### 2. Provide inputs for LEfSe Preparation:
 
 - Select feature table file by pressing `Choose feature table file (*.qza)` button
   - An output from **QIIME2 dada2** ***denoise*** formatted as `*.qza`
