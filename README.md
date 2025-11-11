@@ -23,9 +23,14 @@
 	- [Requirements](#requirements)
 	- [Installation](#installation)
 	- [Usage](#usage)
-	- [Screenshots](#screenshots)
-	- [Roadmap](#roadmap)
-	- [Contributing](#contributing)
+		- [Taxonomic Structure Visualization](#taxonomic-structure-visualization)
+			- [1. Open application `Viz16S-Ampli`](#1-open-application-viz16s-ampli)
+			- [2. Provide inputs:](#2-provide-inputs)
+			- [3. Press `Calculate` button](#3-press-calculate-button)
+			- [4. Press `Plot` button](#4-press-plot-button)
+			- [5. (Optional) Adjust plot position and size](#5-optional-adjust-plot-position-and-size)
+			- [6. Press save button under the plot to save the figure](#6-press-save-button-under-the-plot-to-save-the-figure)
+		- [LEfSe Input Preparation](#lefse-input-preparation)
 	- [License](#license)
 	- [Contact](#contact)
 
@@ -69,19 +74,42 @@ The instruction for installation and application usage can be found below.
 ---
 
 ## Usage
-```bash
-npm start
-```
-Add examples and screenshots.
+
+### Taxonomic Structure Visualization
+
+#### 1. Open application `Viz16S-Ampli`
+
+![AbdPage](figure/taxaAbdPage.png)
+
+#### 2. Provide inputs:
+
+- Select input file by pressing `Choose input file (*.qzv)` button
+  - An output from QIIME2 taxa barplot  formatted as `*.qzv`
+- Select output folder (Must be empty folder) by pressing `Choose output folder` button. 
+  - The input `*.qzv` will be extracted and shown in dropdown menu right after selection.
+- Select taxonomic level to be visualized from dropdown menu `Select taxonomic level`
+- Choose category to be visualized from dropdown menu `Select category to be visualized`
+- (optional) Check `Rename group of sample` to edit the x-axis label
+ - Specify the name for each category to be labeled on x-axis (the label for each category separate by comma (`,`) only)
+- (optional) Specify title for the visualization plot
+
+#### 3. Press `Calculate` button
+
+#### 4. Press `Plot` button
+
+#### 5. (Optional) Adjust plot position and size
+
+#### 6. Press save button under the plot to save the figure
+
+![AbdPage](figure/taxaAbd_page.png)
+
+### LEfSe Input Preparation
+
+![LEfSePage](figure/LefsePreparing_light.png)
 
 ---
 
-## Screenshots
-![Screenshot](path/to/image.png)
-
----
-
-## Roadmap
+<!-- ## Roadmap
 - [ ] Add authentication
 - [ ] Implement dark mode
 - [ ] Add mobile support
@@ -93,7 +121,7 @@ Add examples and screenshots.
 2. Create a branch
 3. Submit a pull request
 
----
+--- -->
 
 ## License
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -104,4 +132,4 @@ This project is licensed under the MIT License.
 ## Contact
 - Email: phurinat.udo@outlook.com
 - GitHub: [phurinat-udo](https://github.com/phurinat-udo)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Phurinat Udomsopagit](http://linkedin.com/in/phurinat-udomsopagit)
