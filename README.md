@@ -29,7 +29,7 @@
 			- [3. Press `Calculate` button](#3-press-calculate-button)
 			- [4. Press `Plot` button](#4-press-plot-button)
 			- [5. (Optional) Adjust plot position and size](#5-optional-adjust-plot-position-and-size)
-			- [6. Press save button under the plot to save the figure](#6-press-save-button-under-the-plot-to-save-the-figure)
+			- [6. Press save button 💾 under the plot to save the figure](#6-press-save-button--under-the-plot-to-save-the-figure)
 		- [LEfSe Input Preparation](#lefse-input-preparation)
 			- [1. Select `LEfSe Input Preparing` tab](#1-select-lefse-input-preparing-tab)
 			- [2. Provide inputs for LEfSe Preparation:](#2-provide-inputs-for-lefse-preparation)
@@ -102,7 +102,7 @@ The instruction for installation and application usage can be found below.
 
 #### 5. (Optional) Adjust plot position and size
 
-#### 6. Press save button under the plot to save the figure
+#### 6. Press save button 💾 under the plot to save the figure
 
 ![AbdPage](figure/taxaAbd_page.png)
 
